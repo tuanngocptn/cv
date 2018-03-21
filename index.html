@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,30 @@
     <style>
         html {
             height: 100%;
-          }
+        }
+
         body {
             min-height: 100%;
             height: 100%;
         }
-        embed{
+
+        object {
             width: 100%;
             height: 100%;
         }
     </style>
 </head>
+
 <body>
-    <embed src="data/CV_NgocPTcom.pdf"/>
+    <object data="data/CV_NgocPTcom.pdf" type="application/pdf">
+        <p>Hello.</p>
+        <p>I'm Pham Tuan Ngoc.</p>
+        <p>Your web browser doesn't have a PDF plugin.</p>
+        <p>
+            <a href="data/CV_NgocPTcom.pdf">click here to download my CV.</a>
+        </p>
+        <p>Thanks and regards.</p>
+    </object>
 </body>
+
 </html>
