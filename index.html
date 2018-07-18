@@ -37,7 +37,9 @@
     <h1>test page</h1>
     <a href="peopleapp://open?link_click_id=link-547711056747992744">Click me</a>
     <script>
-        window.location.replace("peopleapp://people/0");
+        document.addEventListener("DOMContentLoaded", function(event) {  
+            window.location.replace("peopleapp://people/0");
+        });
     </script>
 </body>
 
