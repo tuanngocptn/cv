@@ -1,1 +1,4 @@
 .DS_Store
+.next
+draft
+node_modules
