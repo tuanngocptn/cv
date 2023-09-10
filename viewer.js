@@ -3482,7 +3482,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "/data/CV_NgocPT.pdf",
+    value: "/cv/data/CV_NgocPT.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
@@ -3624,7 +3624,7 @@ const defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "../build/pdf.worker.js",
+    value: "../cv/build/pdf.worker.js",
     kind: OptionKind.WORKER
   }
 };
